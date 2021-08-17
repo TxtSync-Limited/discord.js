@@ -1,5 +1,6 @@
 'use strict';
 
+const URLSearchParams = require('@ungap/url-search-params');
 const { browser } = require('./util/Constants');
 
 let erlpack;
