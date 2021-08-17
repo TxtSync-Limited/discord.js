@@ -2,7 +2,7 @@
 
 const https = require('https');
 const FormData = require('@discordjs/form-data');
-const fetch = require('node-fetch');
+const fetch = require('cross-fetch');
 const { UserAgent } = require('../util/Constants');
 
 const agent = new https.Agent({ keepAlive: true });

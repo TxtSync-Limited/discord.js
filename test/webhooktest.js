@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const util = require('util');
-const fetch = require('node-fetch');
+const fetch = require('cross-fetch');
 const { owner, token, webhookChannel, webhookToken } = require('./auth.js');
 const { Client, Intents, MessageAttachment, MessageEmbed, WebhookClient } = require('../src');
 

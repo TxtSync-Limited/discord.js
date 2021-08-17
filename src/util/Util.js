@@ -2,7 +2,7 @@
 
 const { parse } = require('path');
 const { Collection } = require('@discordjs/collection');
-const fetch = require('node-fetch');
+const fetch = require('cross-fetch');
 const { Colors, Endpoints } = require('./Constants');
 const Options = require('./Options');
 const { Error: DiscordError, RangeError, TypeError } = require('../errors');
